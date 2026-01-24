@@ -69,3 +69,29 @@
     border-color: #6329a2;
 }
 
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-position: center;
+    }
+
+    .hero-overlay {
+        padding: 0 1.5rem;
+        justify-content: center;
+        background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+        border-radius: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .hero-content .hero-title {
+        font-size: 1.5rem;
+    }
+}

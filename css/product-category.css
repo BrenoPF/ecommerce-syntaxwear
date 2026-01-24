@@ -9,7 +9,8 @@
 
 .category-card{  
     position: relative;
-    width: 310px;
+    width: 100%;
+    max-width: 310px;
     height: 500px;
     border-radius: 15px;
     display: flex;

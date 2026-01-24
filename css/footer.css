@@ -123,3 +123,40 @@ footer {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer-left {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .subscribe-input-group {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .footer-column {
+        align-items: center;
+        width: 100%;
+    }
+}

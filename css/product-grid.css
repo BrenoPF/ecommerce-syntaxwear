@@ -50,5 +50,34 @@
     "highlight highlight model sneaker-color"
     "sneaker-white sneaker-white model sneaker-silver";
     gap: 30px;
+}
 
+@media (max-width: 1024px) {
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-template-areas:
+        "highlight highlight"
+        "sneaker-purple sneaker-purple"
+        "model sneaker-white"
+        "sneaker-color sneaker-silver";
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        height: 300px;
+        width: 100%;
+    }
+
+    .highlight {
+        height: auto;
+        min-height: 400px;
+    }
 }
