@@ -8,37 +8,37 @@
 }
 .highlight{
     grid-area: highlight;
-    background-image: url(/imagens/products/card_imagem.jpg);
+    background-image: url(../imagens/products/card_imagem.jpg);
     
 }
 
 .sneaker-purple{
     grid-area: sneaker-purple;
-    background-image: url(/imagens/products/roxo-verde-grid.jpg);
+    background-image: url(../imagens/products/roxo-verde-grid.jpg);
     
 }
 
 .model{
     grid-area: model;
-    background-image: url(/imagens/products/modelo-feminino.jpg);
+    background-image: url(../imagens/products/modelo-feminino.jpg);
    
 }
 
 .sneaker-color{
     grid-area: sneaker-color;
-    background-image: url(/imagens/products/futurista-grid.jpg);
+    background-image: url(../imagens/products/futurista-grid.jpg);
      
 }
 
 .sneaker-white{
     grid-area: sneaker-white;
-    background-image: url(/imagens/products/preto-azul-grid.jpg);
+    background-image: url(../imagens/products/preto-azul-grid.jpg);
     
 }
 
 .sneaker-silver{
     grid-area: sneaker-silver;
-    background-image: url(/imagens/products/modelo-frid.jpg);
+    background-image: url(../imagens/products/modelo-frid.jpg);
     
 }
 .grid-section{
