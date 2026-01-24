@@ -1,5 +1,4 @@
 .categories-section{
-    background-color: aqua;
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
@@ -10,7 +9,7 @@
 
 .category-card{  
     position: relative;
-    width: 318px;
+    width: 310px;
     height: 500px;
     border-radius: 15px;
     display: flex;
@@ -51,4 +50,32 @@
     background-image: url('../imagens/products/futurista.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.top1-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-title{
+    color: #ededed;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-subtitle{
+    color: #ededed;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta-group{
+    display: flex;
+    gap: 12px;
 }
